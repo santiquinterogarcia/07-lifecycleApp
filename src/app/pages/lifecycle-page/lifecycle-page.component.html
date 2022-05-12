@@ -1,0 +1,14 @@
+<p>lifecycle-page works!</p>
+
+<input type="text" placeholder="Escribe tu nombre" [(ngModel)]="nombre">
+
+<button (click)="guardar()">Click</button>
+
+
+<hr>
+
+<app-muestra-nombre [nombre]="nombre"></app-muestra-nombre>
+
+<hr>
+
+<h1>Segundos: {{segundos}}</h1>
